@@ -1,0 +1,50 @@
+[
+    {
+        "name": "sushi au saumon",
+        "description": "6 sushis au saumon servit avec du gingembre mariné, de la sauce soja et du wasabi.",
+        "price": 4,
+        "isNew": false,
+        "img": "https://images.pexels.com/photos/8472618/pexels-photo-8472618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "slug": "sushi-au-saumon"
+    },
+    {
+        "name": "plat de sushi variés",
+        "description": "12 sushis variés servit avec du gingembre mariné, de la sauce soja et du wasabi.",
+        "price": 8,
+        "isNew": true,
+        "img": "https://images.pexels.com/photos/3298604/pexels-photo-3298604.jpeg",
+        "slug": "plat-de-sushi-varies"
+    },
+    {
+        "name": "gyoza",
+        "description": "8 gyoza au boeuf servi avec du riz, une soupe miso et une salade d'algue.",
+        "price": 10,
+        "isNew": false,
+        "img": "https://images.pexels.com/photos/11661139/pexels-photo-11661139.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "slug": "gyoza"
+    },
+    {
+        "name": "menu sushi et maki",
+        "description": "menu sushi et maki servit avec du gingembre mariné, de la sauce soja et du wasabi et accompagné de riz, d'une soupe miso et d'une salade d'algue.",
+        "price": 16,
+        "isNew": true,
+        "img": "https://images.pexels.com/photos/8472638/pexels-photo-8472638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "slug": "menu-sushi-et-maki"
+    },
+    {
+        "name": "menu sashimi",
+        "description": "menu sashimi servit sur de la glace pillée avec du gingembre mariné, de la sauce soja et du wasabi et accompagné de riz, d'une soupe miso et d'une salade d'algue.",
+        "price": 21,
+        "isNew": false,
+        "img": "https://images.pexels.com/photos/2871757/pexels-photo-2871757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "slug": "menu-sashimi"
+    },
+    {
+        "name": "ramen au porc",
+        "description": "ramen au porc avec un bouillon épicé et accompagné de riz, d'une soupe miso et d'une salade d'algue.",
+        "price": 17,
+        "isNew": true,
+        "img": "https://images.pexels.com/photos/17592743/pexels-photo-17592743/free-photo-of-diner-repas-oeuf-viande.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "slug": "ramen-au-porc"
+    }
+]

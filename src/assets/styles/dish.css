@@ -1,0 +1,26 @@
+.container {
+    margin-block: 50px;
+}
+.container-md {
+    display: flex;
+    justify-content: center;
+    margin-block: 30px;
+}
+.card {
+    width: 35%;
+}
+.bold {
+    font-weight: bold;
+}
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    width: 0;
+}
+.card-img-top {
+    object-fit: cover;
+}
