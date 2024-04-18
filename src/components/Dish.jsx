@@ -11,17 +11,18 @@ import '../assets/styles/dish.css'
 const Dish = ( {name, img, description, price, slug, isNew} ) => {
     return (
       <Container fluid="md">
-        <Link to={`plat/${slug}`}></Link>
         <Card>
             <Row>
-              <Col>
+              <Col sm>
                 {isNew && <Badge bg="primary p-2">Nouveau</Badge>}
                 <Card.Img variant="top" src={img} alt={name} />
                 <Card.Body>
                   <Card.Title>{name}</Card.Title>
                   <Card.Text>{description}</Card.Text>
                   <Card.Text className="bold">{price}€</Card.Text>
-                  <Button variant="primary">Plus de détails</Button>
+                  <Link to={`plat/${slug}`}>
+                    <Button variant="primary">Plus de détails</Button>
+                  </Link>
                 </Card.Body>
               </Col>
             </Row>
